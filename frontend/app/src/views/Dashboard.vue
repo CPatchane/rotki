@@ -101,7 +101,7 @@
       <v-col cols="12">
         <v-card>
           <v-row no-gutters class="pa-3 secondary--text">
-            <v-toolbar-title class="font-weight-medium">
+            <v-toolbar-title class="text-capitalize font-weight-medium">
               balance per asset
             </v-toolbar-title>
             <v-spacer></v-spacer>
@@ -323,7 +323,7 @@ export default class Dashboard extends Vue {
     { text: 'Amount', value: 'amount', align: 'end' },
     { text: 'Value', value: 'usdValue', align: 'end' },
     {
-      text: '% of net Value',
+      text: '% of total',
       value: 'percentage',
       align: 'end',
       sortable: false
